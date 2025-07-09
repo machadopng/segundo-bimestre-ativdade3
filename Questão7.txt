@@ -1,0 +1,17 @@
+programa
+{
+	inclua biblioteca Matematica --> M
+	
+	funcao inicio()
+	{
+		real n1, n2, n3
+		escreva("Me de tres numeros. \n")
+		leia(n1, n2, n3)
+
+          
+          se(n1>=n2){se(n1>=n3){escreva("a ordem decrescente é ", n1, " ", M.maior_numero(n2, n3)," ", M.menor_numero(n2, n3))}}
+          senao se(n2>=n1){se(n2>=n3){escreva("a ordem decrescente é ", n2, " ", M.maior_numero(n1, n3)," ", M.menor_numero(n3, n1))}}
+          senao se(n3>=n2){se(n3>=n1){escreva("a ordem decrescente é ", n3, " ", M.maior_numero(n2, n1)," ", M.menor_numero(n2, n1))}}
+          	
+	}
+}
