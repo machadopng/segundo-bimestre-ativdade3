@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+    
+	     real ladoA, ladoB, ladoC
+		escreva("Me de os lados do triângulo.\n")
+		leia(ladoA, ladoB, ladoC)
+
+		se (ladoA + ladoB > ladoC e ladoA + ladoC > ladoB e ladoB + ladoC > ladoA) {
+          se (ladoA == ladoB e ladoB == ladoC) {
+          escreva("Triangulo equilátero.")
+          }senao se (ladoA == ladoB ou ladoA == ladoC ou ladoB == ladoC) {
+          escreva("Triangulo Isóseles")
+          }senao {
+          escreva("Triangulo escaleno.")
+          }
+          }
+          senao {
+          escreva("NÃO FORMA UM TRIaNGULO.")
+          }
+	}
+}
