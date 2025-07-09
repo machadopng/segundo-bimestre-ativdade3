@@ -1,0 +1,15 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+real a, b, c, delta, x1, x2
+	funcao inicio()
+	{
+		escreva("Digite o valor de a, b e c. \n")
+		leia(a, b ,c)
+		delta = Matematica.potencia(b, 2.0)
+		x1 = -b + Matematica.raiz(delta, 2.0) / 2 * a
+		x2 = -b - Matematica.raiz(delta, 2.0) / 2 * a
+		escreva(" A = ", a, "\n B = ", b, "\n C = ", c, " \n Δ = ", delta, " \n X' = ", x1, "\n X\" = ", x2)
+	}
+}
