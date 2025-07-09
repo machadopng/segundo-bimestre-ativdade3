@@ -1,0 +1,19 @@
+programa
+{
+	inclua biblioteca Matematica
+    funcao inicio()
+    {
+        inteiro numero1, numero2, numero3, numero4
+        escreva("Me de quatro numeros.\n")
+        leia(numero1, numero2, numero3, numero4)
+        se(numero1>numero2 e numero1>numero3 e numero1>numero4){
+        	escreva("O maior numero é ", numero1)
+        }senao se(numero2>numero1 e numero2>numero3 e numero2>numero4){
+        	escreva("O maior numero é ", numero2)
+        }senao se(numero3>numero2 e numero3>numero1 e numero3>numero4){
+        	escreva("O maior numero é ", numero3)
+        }senao se(numero4>numero2 e numero4>numero3 e numero4>numero1){
+        	escreva("O maior numero é ", numero4)
+        }
+    }
+}
