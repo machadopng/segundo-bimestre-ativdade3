@@ -1,0 +1,17 @@
+programa
+{
+    funcao inicio()
+    {
+        real km, dias, preco
+        real preco_por_dia = 60.0
+        real preco_por_km = 0.15
+       
+        escreva("Qual a quantidade de km percorridos? \n")
+        leia(km)
+        escreva("Qual a quantidade de dias corridos? \n")
+        leia(dias)
+
+        preco = (dias * preco_por_dia) + (km * preco_por_km)
+        escreva("O preço vai dar: R$ ", preco)
+    }
+}
