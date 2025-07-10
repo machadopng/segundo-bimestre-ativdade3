@@ -1,0 +1,61 @@
+programa
+{
+	
+inteiro cod
+	real total, quatidade
+	
+	funcao inicio()
+	{
+    
+      	escreva("--------------Lanchonete Campus--------------\n")
+		escreva("---------------------------------------------\n")
+		escreva("--Código----Item-----------------Preço-------\n")
+          escreva("---100------Cachorro Quente------5.00--------\n")
+          escreva("---101------Bauru----------------2.60--------\n")
+          escreva("---102------Bauru c/ovo----------3.80--------\n")
+		escreva("---103------Hamburguer-----------9.00--------\n")
+		escreva("---104------Cheeseburger---------11.00-------\n")
+		escreva("---105------Refrigerante---------3.00--------\n")
+		escreva("---106------Semente dos deuses---1000.00-----\n")
+		escreva("---------------------------------------------\n")
+          escreva("Qual item você deseja? Digite o código.\n")
+          leia(cod)
+          escreva("Qual a quantidade?\n")
+          leia(quatidade)
+          escolha(cod){
+          caso 100:{
+          	total = quatidade * 5.00
+          	pare
+          }
+          caso 101:{
+          	total = quatidade * 2.60
+          	pare
+          }
+          caso 102:{
+          	total = quatidade * 3.80
+          	pare
+          }
+          caso 103:{
+          	total = quatidade * 9.00
+          	pare
+          }
+          caso 104:{
+          	total = quatidade * 11.00
+          	pare
+          }
+          caso 105:{
+          	total = quatidade * 3.00
+          	pare
+          }
+          caso 106:{
+          	total = quatidade * 1000.00
+          	pare
+          }
+
+          
+          }
+       escreva("O total a se pagar é: ", total, " reais.")
+
+
+	}
+}
