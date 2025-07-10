@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real velocidade
+		real km_excedido
+		real a_se_pagar
+		
+		escreva("Qual velocidade estava o carro?\n")
+		leia(velocidade)
+
+
+          se(velocidade > 80){
+          	km_excedido = velocidade - 80
+          	a_se_pagar = km_excedido * 7.0
+          	escreva("Você deve pagar: R$", a_se_pagar, ".")
+          }		
+	}
+}
